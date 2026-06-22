@@ -89,9 +89,9 @@ Business Insights
 ## Repository Structure :
 
 ```text
-ROS Project
+Restaurant-One-Solution-ROS-Project
 │
-├── csv files
+├── csv.zip
 │   ├── Banking.csv
 │   ├── Cash_Up.csv
 │   ├── Clients.csv
@@ -108,31 +108,19 @@ ROS Project
 │   ├── TaxInfo.csv
 │   └── Users.csv
 │
-├── Database Scripts
-│   ├── ROS_DDL_MySQL.sql
-│   ├── ROS_DDL_PostgreSQL.sql
-│   ├── ROS_LOAD_DATA.sql
-│   ├── ROS_LOAD_MySQL.sql
-│   └── ROS_LOAD_PostgreSQL.sql
-│
-├── Dataset Files
-│   ├── ROS_Dataset.xlsx
-│   └── ROS_Dataset_backup.xlsx
+│── ROS_DDL_MySQL.sql
+│── ROS_LOAD_DATA.sql
+│── ROS_LOAD_MySQL.sql
 │
 ├── Data Quality & Documentation
-│   ├── Data Dictionary
-│   ├── Data Anomalies Report
-│   ├── Data Cleaning Matrix
-│   ├── Data Generation Strategy
-│   ├── Transformation Tracker
-│   └── Validation Reports
+│── Data Dictionary
+│── Data Anomalies Report
+│── Data Cleaning Matrix
+│── Data Generation Strategy
+│── Transformation Tracker
 │
-├── KNIME Workflows
-│   ├── Workflow Designs
-│   ├── Workflow Implementation
-│   ├── Testing Reports
-│   └── Validation Results
-│
+├── KNIME Workflow file
+|
 └── Power BI
     └── Visualization Dashboard
 ```
